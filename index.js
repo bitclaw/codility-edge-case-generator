@@ -7,7 +7,16 @@ const program = require('commander');
 program
     .version('1.0.0')
     .option('-g, --generate-array','Generates big array for Codility exercises')
-    //.option('-v, --verbose [optional]','Optional option to increase verbosity')
-    //.option('-I, --another-input <required>','required user input')
-    .parse(process.argv); // end with parse to parse through the input
+    .action(function(req,optional){
+        console.log('.action() allows us to implement the command');
+        console.log('User passed %s', req);
+        if (optional) {
+            optional.forEach(function(opt){
+                console.log("User passed optional arguments: %s", opt);
+            });
+        }
+    });
+
+// Parse CLI arguments
+program.parse(process.argv);
 

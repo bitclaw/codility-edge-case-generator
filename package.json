@@ -1,0 +1,19 @@
+{
+  "name": "codility-edge-case-generator",
+  "version": "1.0.0",
+  "description": "Codility Edge Case Generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitclaw/codility-edge-case-generator.git"
+  },
+  "author": "Daniel C. <bitclaw@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bitclaw/codility-edge-case-generator/issues"
+  },
+  "homepage": "https://github.com/bitclaw/codility-edge-case-generator#readme"
+}

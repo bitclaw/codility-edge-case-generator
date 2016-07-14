@@ -6,6 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "cecg": "index.js"
+  },
+  "keywords": [
+    "node",
+    "cli",
+    "Codility"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bitclaw/codility-edge-case-generator.git"
@@ -15,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/bitclaw/codility-edge-case-generator/issues"
   },
-  "homepage": "https://github.com/bitclaw/codility-edge-case-generator#readme"
+  "homepage": "https://github.com/bitclaw/codility-edge-case-generator#readme",
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
 }

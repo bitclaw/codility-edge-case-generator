@@ -1,8 +1,13 @@
 #!/usr/bin/env node
+/* eslint max-len: 0 */
 
 'use strict';
 
 const program = require('commander');
+let glob      = require("glob");
+let kebabCase  = require("lodash/kebabCase");
+let uniq       = require("lodash/uniq");
+let each       = require("lodash/each");
 
 program
     .version('1.0.0')
